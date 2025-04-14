@@ -1,0 +1,42 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* FullCalendar custom styles */
+.fc {
+  width: 100% !important;
+  height: 100% !important;
+}
+
+.fc .fc-view {
+  width: 100% !important;
+}
+
+.fc .fc-view-harness {
+  width: 100% !important;
+}
+
+.fc .fc-scrollgrid {
+  width: 100% !important;
+}
+
+.fc .fc-scrollgrid-section {
+  width: 100% !important;
+}
+
+.fc table {
+  width: 100% !important;
+  table-layout: fixed !important;
+}
+
+.fc td {
+  width: 14.285714% !important; /* 100% / 7 days */
+}
+
+.fc .fc-daygrid-body {
+  width: 100% !important;
+}
+
+.fc .fc-daygrid-body-balanced {
+  width: 100% !important;
+}
